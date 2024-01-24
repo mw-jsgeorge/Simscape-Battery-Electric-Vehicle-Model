@@ -3,7 +3,7 @@ function plan = buildfile
 
 % Copyright 2023 The MathWorks, Inc.
 
-top_folder = currentProject().RootFolder;
+top_folder = pwd;
 
 test_definitions = [
   fullfile(top_folder, "BEV", "Test", "BEV_UnitTest_MQC.m")
